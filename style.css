@@ -1086,7 +1086,7 @@ height: auto;
 .contacts-main {
     height: max-content;
     background-color: #aa004117;
-    box-shadow: inset 0 0 100px 50px white;
+    box-shadow: inset 0 0 120px 50px rgb(141, 141, 141);
     background-image: url(photo/back.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
