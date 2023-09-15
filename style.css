@@ -268,7 +268,7 @@ font-weight: 600;
     display: grid;
     grid-template-columns: 1fr 3fr 0.8fr;
     grid-template-areas: "img1 main img2";
-    background-color: #ff67954f;
+    background-color: #fde4073b;
     min-height: 75vh;
     overflow: hidden;
     box-shadow: inset 0px 120px 160px rgba(255, 255, 255, 0.822);
@@ -1676,8 +1676,14 @@ left: 10em;
     /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!SECTION2!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 }
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@500 */
 @media screen and (max-device-width: 500px) {
+    .body{
+        width: 100%;
+    }
+    .main-container{
+        width: 100%;
+    }
     .header {
    
         display: grid;
@@ -1701,7 +1707,7 @@ left: 10em;
         font-family: 'Sofia Sans Condensed', sans-serif;
         background-color: #ff3280e8;
         width: 100vw;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         /* #fac954 */
         
     
@@ -1816,7 +1822,7 @@ left: 10em;
         padding-left: 26px;
         white-space: nowrap;
         position: relative;
-        font-size: 26px;
+        font-size: 20px;
        
     }
     .menu__list-item1::after {
@@ -1826,8 +1832,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -1843,8 +1849,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -1860,8 +1866,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -1877,8 +1883,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -1894,8 +1900,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -1911,8 +1917,8 @@ left: 10em;
         border-radius: 50%;
         background-color: #df0055;
         position: absolute;
-        top:  14px;
-        right: 6%;
+        top:  10px;
+        left: 105%;
         opacity: 0;
        
     
@@ -2005,7 +2011,7 @@ left: 10em;
 }
 .media-container__image-container2 {
     position: absolute;
-left: 2em;
+left: -1em;
 top:22em;
 
 
@@ -2014,7 +2020,7 @@ top:22em;
 }
 .media-container__image-container3 {
     position: absolute;
-    left: 12em;
+    left: 7em;
     top: 18em;
 
 
@@ -2026,6 +2032,7 @@ top:22em;
     grid-area: video;
     display: flex;
     justify-content: center;
+    height: 80%;
     /* top: 6em;
     left: 1em; */
   
@@ -2037,6 +2044,7 @@ top:22em;
 width: 100%;
 height: 100%;
 padding-top: 20px;
+margin-bottom: 20px;
 }
 
 
@@ -2056,6 +2064,7 @@ padding-top: 20px;
     /* border-top: solid 1px rgba(0, 0, 0, 0.568); */
     background-color: #a1a1a149;
     background: linear-gradient(white,rgba(128, 128, 128, 0.863));
+    padding-top: 120px;
 }
 .footer-container a{
     color: black;
@@ -2068,7 +2077,7 @@ padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .footer-item{
@@ -2306,7 +2315,7 @@ width: 80px;
 }
 .service-card__text-about li{
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!GALLERY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -2361,7 +2370,7 @@ left: 3em;
 .gallery-main__card-photo-container {
     position: relative;
     height: 90vh;
-    transform: scale(30%);
+    transform: scale(25%);
 }
 .gallery-main__card-photo-container img {
     width: 100%;
