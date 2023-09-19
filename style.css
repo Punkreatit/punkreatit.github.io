@@ -693,7 +693,7 @@ width: 80px;
     grid-template-areas: "photo . text";
 }
 .doctor-own-container--dark{
-    background-color: #ac00420a;
+    background-color: #d3005128;
 }
 .doctor-own-container__text {
     grid-area: text;
@@ -741,7 +741,7 @@ width: 80px;
     display: grid;
     grid-template-columns: 2fr 3em 3fr;
     grid-template-areas: "photo . text";
-    height: 60vh;
+    height: 80vh;
     /* padding-bottom: 30px; */
     background: linear-gradient(to right, rgb(255, 255, 255)70%,rgba(255, 42, 244, 0.363));
     
@@ -753,7 +753,7 @@ width: 80px;
     grid-template-columns: 3fr 4em 2fr;
     grid-template-areas: "text . photo";
     padding-left: 2em;
-    height: 60vh;
+    height: 80vh;
     background: linear-gradient(to left, rgb(255, 255, 255)70%,rgba(5, 64, 255, 0.363));
     
 }
@@ -925,7 +925,7 @@ left: 2em;
     width: 999px;
     height: 520px;
     border-radius: 60px;
-    background-color: #e0ca00b4;
+    background-color: #00d1d1b4;
     z-index: -2;
     box-shadow: inset 0 0 14px 1px white;
 }
@@ -1091,12 +1091,16 @@ height: auto;
    
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ACTIONS!!!!!!!!!!!!!!! */
+.actions-main{
+    min-height: 70vh;
+    height: 80vh;
+}
 /* ,!!!!!!!!!!!!!!!!!!!!!!!!!!CONTACTS!!!!!!!!!!!!!!!!!!!!!!! */
 .contacts-main {
     height: max-content;
     background-color: #aa004117;
     box-shadow: inset 0 0 120px 50px rgb(141, 141, 141);
-    background-image: url(photo/back.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -1110,6 +1114,10 @@ height: auto;
     font-family: 'Alumni Sans', sans-serif; 
     font-size: 26px;
     font-weight: 500;
+
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0),rgb(255, 255, 255)), url(photo/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
 }
@@ -2360,7 +2368,7 @@ width: 80px;
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!SERVICES!!!!!!!!!!!!!!!!!!!!!!!! */
 .services-main {
     height: min-content;
-    min-height: 50vh;
+    min-height: 60vh;
 }
 .services-main-container {
     height: 100%;
@@ -2369,7 +2377,8 @@ width: 80px;
     display: grid;
     grid-template-columns: 1fr 1em 3fr;
     grid-template-areas: "photo . text";
-    padding-bottom: 30px;
+    
+    height: min-content
    
     
 }
@@ -2378,8 +2387,9 @@ width: 80px;
     display: grid;
     grid-template-columns: 3fr 4em 2fr;
     grid-template-areas: "text . photo";
-    padding-bottom: 30px;
     padding-left: 2em;
+    height: min-content;
+    padding-bottom: 20px;
     
 }
 .services-main__service-card:hover{
@@ -2429,7 +2439,7 @@ width: 80px;
 }
 .service-card__text-title {
     margin: 10px;
-    text-align: center;
+    text-align:inherit;
     padding-top: 10px;
     font-size: 30px;
     text-transform: uppercase;
@@ -2596,6 +2606,7 @@ left: 10em;
     height: max-content;
     background-color: #aa004117;
     box-shadow: inset 0 0 100px 50px white;
+    background-size: 100% ;
 }
 .contacts__container {
     display: flex;
